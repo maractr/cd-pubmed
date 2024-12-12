@@ -1,0 +1,169 @@
+Title: A pilot randomized controlled trial of a virtual peer-support exercise intervention for female older adults with cancer
+
+Abstract: Regular exercise can mitigate side effects of cancer treatment. However, only a small proportion of adults with cancer meet exercise guidelines, and older adults (>â65Â years) are underrepresented in cancer rehabilitation research Older adult female cancer survivors with internet access and currently participating inâ<â150 min of moderate-vigorous physical activity per week were included in this study. Participants were matched with a partner and given a peer support guide, exercise guidelines, and a Fitbit InspireÂ©. In addition, intervention group dyads ( Eighteen participants (9 dyads; mean age 72 years (SD: 5.7 years)) were included in the pilot trial. Retention and adherence rates to the  A virtual partner-based exercise intervention for older adults with cancer is feasible and shows preliminary effect benefits. Findings inform future trials aimed at increasing exercise in older adults with cancer. Clinicaltrials.gov (ID: NCT05549479, date: 22/09/22).
+
+Body:
+
+Background
+----------
+By 2030, almost a quarter of the Canadian population will be over the age of 65 years [
+Many of the physical effects of cancer treatment can be mitigated by participation in regular exercise [
+Social support is multi-faceted and involves networks of individuals, groups, and the community available to individuals in times of need [
+There is little research using peer-based interventions to promote exercise in older adults [
+
+Methods
+-------
+This study was a two-arm pilot randomized controlled trial with a blinded outcome assessment. The study methods adhered to the CONSORT extension for randomized pilot trials [
+Eligible participants included: (1) English-speaking; (2) self-identified female older adults (>â65 years); (2) living with or beyond a cancer diagnosis (any type or stage of cancer at any stage of treatment); (3) living in Canada; who were (4) cleared to participate in exercise according to Canadian Society of Exercise Professionalâs âGet Active Questionnaireâ; [
+We recruited for this project by sending out study ads using community association resources (i.e., retiree associations, aging councilsâ websites, and social media) and placing ads in local newspapers to recruit participants. Interested potential participants were asked to contact study staff by email. A RC screened participants for eligibility before gaining consent and setting up the baseline assessment.
+The RC matched all participants into dyads based on evidence-informed criteria [
+Partners in both groups independently communicated using the mode of their choice (i.e., phone, email, text messaging, video conferencing, in-person meeting, as chosen by the dyad) for the duration of the study. They were encouraged to support each other around exercise on a weekly basis (with chosen mode and frequency) for the duration of the study.
+This group had dyads communicate and support each other around exercise, structuring their communication (mode and frequency) independently with their matched peer. Together, dyads also participated in weekly virtual sessions using zoom where they received support from a qualified exercise professional (QEP) for 10 weeks. Each session lasted up to 1 h. The QEP had advanced training in cancer rehabilitation and provided a tailored exercise program recommendation, focusing on aerobic activity (defined as dynamic activities that involve large muscles and result in increases in heart rate and energy expenditure; may include activities such as walking, swimming, and biking [
+Dyads in this group were asked to independently communicated and supported each other around exercise for the 10-week intervention period. They structured their communication and support (mode and frequency) independently with their matched peer and did not have additional contact or support provided by the QEP during the intervention or tapering period. After the final assessment time point, participant dyads in this group were offered a single virtual session with the study QEP to discuss exercise-related questions for older adults with cancer.
+Outcome data were collected at baseline (T1), post-intervention (T2; 10Â weeks post-baseline), and post-tapering (T3; 14Â weeks post-baseline). Before baseline, a demographic survey collected personal (i.e., gender identity, culture) and-cancer specific characteristics (i.e., type, stage).
+The primary outcome of this pilot trial was feasibility. Feasibility was assessed by measuring retention and adherence rates to the intervention, number of participants requiring technical assistance, and satisfaction with peer support at T2. Retention was defined as a percentage of enrolled participants who completed the intervention and adherence was defined as percentage of total sessions attended. Based on the most recently published high quality systematic review data in this population and using similar methods, a priori we defined the intervention would be feasible with a retention rate of 70% [
+Participant satisfaction with the quality of their peer match to support exercise was also collected as a component of feasibility via a self-report questionnaire collected at T2 (5-point Likert scale from very dissatisfied to very satisfied). We expected only a small number of participants (â¤â25%) would report being dissatisfied (i.e., dissatisfied or very dissatisfied) with the quality of their peer match. Participants were also asked to what extent they felt their exercise partner was a good match (5-point Likert scale from very good match to very poor match) and was similar to them (Likert scale from extremely similar to not at all similar). They were asked to elaborate on what characteristics they had in common with their partner in a multi-select question with the option to add additional information. At T2 and T3 participants were also asked how often they communicated with their exercise partner (number of times per week; open-ended question), for how long (in minutes; open-ended question), and how (i.e., mode; multi-select question) they communicated.
+Preliminary effectiveness outcomes included device-measured exercise volume, self-report exercise volume [
+Device measured exercise volume was measured using a Fitbit Inspire 2Â©. The Fitbit device measured daily minutes of MVPA, sedentary minutes, total minutes of physical activity, and step count. Participants were only required to wear the Fitbit device for 7 days (7-day wear time) at each of the three assessment timepoints, and the daily counts were averaged into weekly values. Data were downloaded at the end of each 7-day wear time by a study team member via the online Fitbit database. In this study participants were only required to wear the Fitbit during activity assessments (not for the entire duration of the study). However, they were not restricted from using the Fitbit between assessment time points and use outside of the assessment time points was not tracked. Participants were able to keep them after the study was completed and use at their leisure. The Fitbit has been used successfully in other studies, including individuals with cancer, demonstrating high adherence [
+Self-report exercise volume was measured using The Godin Leisure Time Exercise Questionnaire [
+Overall social support was measured using the Social Support Survey (SSS) [
+HRQOL was measured using the EQ-5D-Visual Analogue Scale (VAS) [
+Physical functioning was assessed using the Patient-Specific Functional Scale (PSFS) [
+Physical activity enjoyment was measured using the Physical Activity Enjoyment Scale [
+Sample size calculation was completed based on suggestions for pilot RCT calculations [
+
+Study design
+------------
+This study was a two-arm pilot randomized controlled trial with a blinded outcome assessment. The study methods adhered to the CONSORT extension for randomized pilot trials [
+
+Participants & recruitment
+--------------------------
+Eligible participants included: (1) English-speaking; (2) self-identified female older adults (>â65 years); (2) living with or beyond a cancer diagnosis (any type or stage of cancer at any stage of treatment); (3) living in Canada; who were (4) cleared to participate in exercise according to Canadian Society of Exercise Professionalâs âGet Active Questionnaireâ; [
+We recruited for this project by sending out study ads using community association resources (i.e., retiree associations, aging councilsâ websites, and social media) and placing ads in local newspapers to recruit participants. Interested potential participants were asked to contact study staff by email. A RC screened participants for eligibility before gaining consent and setting up the baseline assessment.
+
+Intervention
+------------
+The RC matched all participants into dyads based on evidence-informed criteria [
+Partners in both groups independently communicated using the mode of their choice (i.e., phone, email, text messaging, video conferencing, in-person meeting, as chosen by the dyad) for the duration of the study. They were encouraged to support each other around exercise on a weekly basis (with chosen mode and frequency) for the duration of the study.
+
+Peer matching
+-------------
+The RC matched all participants into dyads based on evidence-informed criteria [
+Partners in both groups independently communicated using the mode of their choice (i.e., phone, email, text messaging, video conferencing, in-person meeting, as chosen by the dyad) for the duration of the study. They were encouraged to support each other around exercise on a weekly basis (with chosen mode and frequency) for the duration of the study.
+
+Intervention group (AgeMatchPLUS)
+---------------------------------
+This group had dyads communicate and support each other around exercise, structuring their communication (mode and frequency) independently with their matched peer. Together, dyads also participated in weekly virtual sessions using zoom where they received support from a qualified exercise professional (QEP) for 10 weeks. Each session lasted up to 1 h. The QEP had advanced training in cancer rehabilitation and provided a tailored exercise program recommendation, focusing on aerobic activity (defined as dynamic activities that involve large muscles and result in increases in heart rate and energy expenditure; may include activities such as walking, swimming, and biking [
+Dyads in this group were asked to independently communicated and supported each other around exercise for the 10-week intervention period. They structured their communication and support (mode and frequency) independently with their matched peer and did not have additional contact or support provided by the QEP during the intervention or tapering period. After the final assessment time point, participant dyads in this group were offered a single virtual session with the study QEP to discuss exercise-related questions for older adults with cancer.
+Outcome data were collected at baseline (T1), post-intervention (T2; 10Â weeks post-baseline), and post-tapering (T3; 14Â weeks post-baseline). Before baseline, a demographic survey collected personal (i.e., gender identity, culture) and-cancer specific characteristics (i.e., type, stage).
+The primary outcome of this pilot trial was feasibility. Feasibility was assessed by measuring retention and adherence rates to the intervention, number of participants requiring technical assistance, and satisfaction with peer support at T2. Retention was defined as a percentage of enrolled participants who completed the intervention and adherence was defined as percentage of total sessions attended. Based on the most recently published high quality systematic review data in this population and using similar methods, a priori we defined the intervention would be feasible with a retention rate of 70% [
+Participant satisfaction with the quality of their peer match to support exercise was also collected as a component of feasibility via a self-report questionnaire collected at T2 (5-point Likert scale from very dissatisfied to very satisfied). We expected only a small number of participants (â¤â25%) would report being dissatisfied (i.e., dissatisfied or very dissatisfied) with the quality of their peer match. Participants were also asked to what extent they felt their exercise partner was a good match (5-point Likert scale from very good match to very poor match) and was similar to them (Likert scale from extremely similar to not at all similar). They were asked to elaborate on what characteristics they had in common with their partner in a multi-select question with the option to add additional information. At T2 and T3 participants were also asked how often they communicated with their exercise partner (number of times per week; open-ended question), for how long (in minutes; open-ended question), and how (i.e., mode; multi-select question) they communicated.
+Preliminary effectiveness outcomes included device-measured exercise volume, self-report exercise volume [
+Device measured exercise volume was measured using a Fitbit Inspire 2Â©. The Fitbit device measured daily minutes of MVPA, sedentary minutes, total minutes of physical activity, and step count. Participants were only required to wear the Fitbit device for 7 days (7-day wear time) at each of the three assessment timepoints, and the daily counts were averaged into weekly values. Data were downloaded at the end of each 7-day wear time by a study team member via the online Fitbit database. In this study participants were only required to wear the Fitbit during activity assessments (not for the entire duration of the study). However, they were not restricted from using the Fitbit between assessment time points and use outside of the assessment time points was not tracked. Participants were able to keep them after the study was completed and use at their leisure. The Fitbit has been used successfully in other studies, including individuals with cancer, demonstrating high adherence [
+Self-report exercise volume was measured using The Godin Leisure Time Exercise Questionnaire [
+Overall social support was measured using the Social Support Survey (SSS) [
+HRQOL was measured using the EQ-5D-Visual Analogue Scale (VAS) [
+Physical functioning was assessed using the Patient-Specific Functional Scale (PSFS) [
+Physical activity enjoyment was measured using the Physical Activity Enjoyment Scale [
+Sample size calculation was completed based on suggestions for pilot RCT calculations [
+
+Control condition (AgeMatch)
+----------------------------
+Dyads in this group were asked to independently communicated and supported each other around exercise for the 10-week intervention period. They structured their communication and support (mode and frequency) independently with their matched peer and did not have additional contact or support provided by the QEP during the intervention or tapering period. After the final assessment time point, participant dyads in this group were offered a single virtual session with the study QEP to discuss exercise-related questions for older adults with cancer.
+
+Outcomes
+--------
+Outcome data were collected at baseline (T1), post-intervention (T2; 10Â weeks post-baseline), and post-tapering (T3; 14Â weeks post-baseline). Before baseline, a demographic survey collected personal (i.e., gender identity, culture) and-cancer specific characteristics (i.e., type, stage).
+
+Primary outcome
+---------------
+The primary outcome of this pilot trial was feasibility. Feasibility was assessed by measuring retention and adherence rates to the intervention, number of participants requiring technical assistance, and satisfaction with peer support at T2. Retention was defined as a percentage of enrolled participants who completed the intervention and adherence was defined as percentage of total sessions attended. Based on the most recently published high quality systematic review data in this population and using similar methods, a priori we defined the intervention would be feasible with a retention rate of 70% [
+Participant satisfaction with the quality of their peer match to support exercise was also collected as a component of feasibility via a self-report questionnaire collected at T2 (5-point Likert scale from very dissatisfied to very satisfied). We expected only a small number of participants (â¤â25%) would report being dissatisfied (i.e., dissatisfied or very dissatisfied) with the quality of their peer match. Participants were also asked to what extent they felt their exercise partner was a good match (5-point Likert scale from very good match to very poor match) and was similar to them (Likert scale from extremely similar to not at all similar). They were asked to elaborate on what characteristics they had in common with their partner in a multi-select question with the option to add additional information. At T2 and T3 participants were also asked how often they communicated with their exercise partner (number of times per week; open-ended question), for how long (in minutes; open-ended question), and how (i.e., mode; multi-select question) they communicated.
+
+Secondary outcomes
+------------------
+Preliminary effectiveness outcomes included device-measured exercise volume, self-report exercise volume [
+Device measured exercise volume was measured using a Fitbit Inspire 2Â©. The Fitbit device measured daily minutes of MVPA, sedentary minutes, total minutes of physical activity, and step count. Participants were only required to wear the Fitbit device for 7 days (7-day wear time) at each of the three assessment timepoints, and the daily counts were averaged into weekly values. Data were downloaded at the end of each 7-day wear time by a study team member via the online Fitbit database. In this study participants were only required to wear the Fitbit during activity assessments (not for the entire duration of the study). However, they were not restricted from using the Fitbit between assessment time points and use outside of the assessment time points was not tracked. Participants were able to keep them after the study was completed and use at their leisure. The Fitbit has been used successfully in other studies, including individuals with cancer, demonstrating high adherence [
+Self-report exercise volume was measured using The Godin Leisure Time Exercise Questionnaire [
+Overall social support was measured using the Social Support Survey (SSS) [
+HRQOL was measured using the EQ-5D-Visual Analogue Scale (VAS) [
+Physical functioning was assessed using the Patient-Specific Functional Scale (PSFS) [
+Physical activity enjoyment was measured using the Physical Activity Enjoyment Scale [
+
+Sample size
+-----------
+Sample size calculation was completed based on suggestions for pilot RCT calculations [
+
+Analysis
+--------
+
+Results
+-------
+Eighteen participants were included in this pilot trial. FigureÂ 
+CONSORT diagram of patient flow across study
+Participant characteristics
+Dyad matching characteristics
+Table 
+Summary statistics for feasibility outcomes
+The retention rate of the intervention was 100%. All consented participants in the 
+Adherence to the 
+Throughout this study, seven participants (39%) had technical issues needing assistance from the RC. These all related to setting up and pairing the Fitbit to their device at the beginning of the study. In response to these issues, the RC made a home visit to resolve these issues with five participants, a phone call with one participant, and a FaceTime call with one participant. After the initial setup of the Fitbits, no technical assistance was needed for the duration of the study.
+Most participants (
+The median number of times participants communicated each week within the intervention period (between T1-baseline assessment and T2) was once (range 0â3; 
+Table 
+Summary statistics and exploratory ancova results
+Overall, preliminary estimates of effect found that group allocation had a small effect on exercise-related social support at T2 (tâ=â2.34, pâ=â0.03, 
+Margins plots demonstrating changes in outcome by group over time (mean, 95% CI) for 
+
+Participants
+------------
+Eighteen participants were included in this pilot trial. FigureÂ 
+CONSORT diagram of patient flow across study
+Participant characteristics
+Dyad matching characteristics
+
+Feasibility
+-----------
+Table 
+Summary statistics for feasibility outcomes
+
+Retention rate
+--------------
+The retention rate of the intervention was 100%. All consented participants in the 
+
+Adherence rate
+--------------
+Adherence to the 
+
+Technical issues
+----------------
+Throughout this study, seven participants (39%) had technical issues needing assistance from the RC. These all related to setting up and pairing the Fitbit to their device at the beginning of the study. In response to these issues, the RC made a home visit to resolve these issues with five participants, a phone call with one participant, and a FaceTime call with one participant. After the initial setup of the Fitbits, no technical assistance was needed for the duration of the study.
+
+Satisfaction with peer support and communication characteristics
+----------------------------------------------------------------
+Most participants (
+The median number of times participants communicated each week within the intervention period (between T1-baseline assessment and T2) was once (range 0â3; 
+
+Preliminary effectiveness outcomes
+----------------------------------
+Table 
+Summary statistics and exploratory ancova results
+Overall, preliminary estimates of effect found that group allocation had a small effect on exercise-related social support at T2 (tâ=â2.34, pâ=â0.03, 
+Margins plots demonstrating changes in outcome by group over time (mean, 95% CI) for 
+
+Discussion
+----------
+This study assessed the feasibility and preliminary effectiveness of a virtually delivered peer support exercise intervention for older adult female survivors of cancer. A high adherence rate (95%), retention rate (100%), and satisfaction scores support the feasibility of the intervention and future exploration in a full-scale trial. In an exploratory analysis, beneficial effects of the 
+However, technical issues arose for seven participants, all related to setting up the Fitbit device used during assessment procedures, which required assistance from the RC. This observation highlights the need for improved informational resources (such as videos or detailed written instructions) on how to set up and sync the Fitbit devices for older adults in future research trials. We suggest addressing processes for setting up the Fitbit during the initial participant meeting in future trials using similar methods or choosing a device that is simpler for users to set up. No other technical issues arose during the intervention, supporting its feasibility.
+Interestingly, improvements in exercise-related social support were seen in both the 
+While the previous studies by Pinto and colleagues [
+Finally, this study assessed the frequency, duration, and mode of communication between partners over the intervention and tapering periods. We found a trend for decreased communication (i.e., number of connections and total time connecting each week) between partners over time, which is an important finding because total time connecting is linked to physical activity and those connecting more have higher levels of physical activity [
+While there are numerous strengths to this study, including the novelty of the multi-component intervention used, the control intervention, and recruitment success, results of this study should be viewed with an understanding of its limitations. First, most participants were recruited from Southwestern Ontario, Canada, which limits the generalizability of these findings to populations outside of this region. Further, due to the pilot nature of this trial, we had a small sample size, and while this project demonstrated feasibility, all analysis of secondary outcomes is exploratory due to the sample size, requiring confirmation in a larger scale trial. Additionally, while we explored effects over the short term, longer-term follow-up is needed in future studies to determine if any sustained effects are associated with participation in a study of this sort. Also, we provided participants with a Fitbit to assess their activity level at the assessment time points; however, participants were also able to wear it at their leisure in between assessment time points and this was not tracked by the research team. Those who chose to use the Fitbit between assessment timepoints may have had additional motivation to exercise, which was not accounted for in the analysis. Finally, Fitbitâs data has been shown to underestimate actual activity levels in older adults and the algorithms used by Fitbit have not been validated in older adult populations [
+
+Limitations
+-----------
+While there are numerous strengths to this study, including the novelty of the multi-component intervention used, the control intervention, and recruitment success, results of this study should be viewed with an understanding of its limitations. First, most participants were recruited from Southwestern Ontario, Canada, which limits the generalizability of these findings to populations outside of this region. Further, due to the pilot nature of this trial, we had a small sample size, and while this project demonstrated feasibility, all analysis of secondary outcomes is exploratory due to the sample size, requiring confirmation in a larger scale trial. Additionally, while we explored effects over the short term, longer-term follow-up is needed in future studies to determine if any sustained effects are associated with participation in a study of this sort. Also, we provided participants with a Fitbit to assess their activity level at the assessment time points; however, participants were also able to wear it at their leisure in between assessment time points and this was not tracked by the research team. Those who chose to use the Fitbit between assessment timepoints may have had additional motivation to exercise, which was not accounted for in the analysis. Finally, Fitbitâs data has been shown to underestimate actual activity levels in older adults and the algorithms used by Fitbit have not been validated in older adult populations [
+
+Conclusions
+-----------
+Older adult female survivors of cancer are at risk of physical decline, reduced mobility, and psychological burden due to low levels of activity and inadequate social interactions. This study demonstrated that a virtually delivered partner-based exercise intervention with QEP support is feasible for older adults with cancer and has potential benefits on levels of physical activity, social support, and health-related quality of life. Future research is needed to confirm these results in a larger scale trial with longer follow-up and should evaluate what specific types of support is most effective to facilitate the benefits of physical activity for older adults with cancer.

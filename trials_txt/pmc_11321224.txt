@@ -1,0 +1,161 @@
+Title: Using formative process evaluation to improve program implementation and accessibility of competitive group-based physical activity in the TEAM-PA trial
+
+Abstract: This study demonstrates how formative process evaluation was used to assess implementation and improve dose and fidelity in the Together Everyone Achieves More Physical Activity (TEAM-PA) randomized controlled trial. TEAM-PA uses a randomized group cohort design to evaluate the efficacy of a group-based intervention for increasing physical activity among African American women. Intervention groups met for 10 weeks and were co-led by female African American facilitators, with intervention sessions consisting of group feedback, a health curriculum, group-based physical activity games, and group-based goal-setting. Drawing from a multi-theoretical framework, the intervention targeted social affiliation using collaborative and competitive group strategies, including essential elements focused on group-based behavioral skills, peer-to-peer positive communication, collectivism, optimal challenge, social facilitation, and peer to peer challenges. Formative process evaluation was used to monitor reach, dose, and fidelity, and implement feedback and solutions. Across two cohorts, four groups ( Findings from this study demonstrated high levels of reach, dose, and fidelity, while also highlighting strategies for implementing competitive group-based PA games that are accessible across physical fitness levels. Formative process evaluation, including open-ended items and collaborative brainstorming, holds tremendous potential for improving future interventions. This study was registered on Clinicaltrials.gov (# NCT05519696) on August 22, 2022 prior to the enrollment of the first participant on September 12, 2022 (
+
+Body:
+
+Background
+----------
+African American women experience a variety of social and structural barriers to physical activity (PA) [
+Process evaluation, which involves careful monitoring of program delivery and implementation, is a critical tool for maximizing program implementation and treatment outcomes, as well as understanding when interventions are effective or ineffective [
+A comprehensive formative process evaluation approach allows researchers to monitor various implementation components including dose (extent to which program content is delivered and received), fidelity (extent to which the intervention matches the theoretical essential elements and is implemented as planned), and reach (proportion of intended audience receiving the intervention) [
+The TEAM-PA intervention aims to promote social affiliation among group members and is based on essential elements derived from Social Cognitive Theory (SCT) [
+The TEAM-PA intervention targets social affiliation using both collaborative and competitive group strategies, including essential elements that focus on group-based behavioral skills, peer to peer positive communication, collectivism, optimal challenge, social facilitation, and peer to peer challenges (see TableÂ 
+
+
+TEAM-PA theories and essential elements
+Support for this approach comes from a series of qualitative and pilot studies which included community member input and demonstrated the feasibility, acceptability, and preliminary impact of integrating a team-based approach targeting collaboration and intragroup competition among African American women [
+Implementation of a multi-theoretical framework can be challenging [
+
+Methods
+-------
+Participants are recruited to participate in one of two group-based PA programs (TEAM-PA intervention or a standard group-delivered comparison program). To be eligible, participants were required to: (1) be â¥â18 years old; (2) self-identify as an African American or Black female; and (3) engage in <â60Â min of self-reported MVPA per week for the last three months. Exclusion criteria included: (1) having a cardiovascular or orthopedic condition that would limit PA; (2) inability to walk without a walker/cane; (3) pregnancy; or (4) uncontrolled blood pressure (systolicâ>â180 mmHg/diastolicâ>â110 mmHg).
+The TEAM-PA trial is a randomized group cohort design, with each cohort consisting of 3â4 groups of approximately 10â15 participants per group [
+Participants first complete a phone screener, including the short-version of the International Physical Activity Questionnaire [
+The TEAM-PA intervention aims to promote a positive group climate and is based on essential elements derived from Social Cognitive Theory (SCT) [
+TableÂ 
+The TEAM-PA intervention is delivered by two trained facilitators at community sites. Groups meet weekly for 12 weeks (including the 2-week run-in period) for two hours in the evening.
+After the run-in period, participants receive a Fitbit (Inspire model) to track their PA and instructions for using the Fitbit mobile app. Participants are connected as âfriendsâ with their group members on the app and a private group is set up by the research team to facilitate conversations among group members. The intervention group sessions include four major components: group feedback and problem-solving (15Â min); delivery of a discussion-based health curriculum (with cultural topics related to collectivism) (30Â min); intragroup competitive PA session (30Â min); and group-based behavioral skills training (e.g., collective PA goal-setting). Outside of the in-person sessions, participants are encouraged to track their daily PA using the FitBits and use the FitBit mobile app to monitor their teamâs progress towards achieving their weekly team-based goal, engage in friendly competition via the appâs leaderboard, and communicate with their team members in the private group. For a detailed description of the intervention approach see the protocol paper [
+Based on previous qualitative and pilot work by the research team [
+African American female facilitators are trained to co-deliver the programs. Facilitators receive facilitator guides for each group session that outline key content, cultural topics, behavioral skills, and the TEAM-PA intragroup competitive activity. All facilitators complete extensive training, including behavioral skills related to PA through didactic and role-play components. Training targets motivational interviewing skills [
+Process evaluation methods were guided by the essential elements framework that defined dose and fidelity of the TEAM-PA intervention. This paper focuses on process evaluation related to reach (proportion of participants who received the intervention as intended), fidelity (extent to which the intervention adheres to the theoretical essential elements as planned), and dose delivered (completeness of all components) in the TEAM-PA intervention [
+
+
+Overview of the process evaluation approach
+Each week, participants are asked to sign-in and sign-out when attending the group sessions, which is used to track attendance and program reach. The a priori goal for the TEAM-PA trial is to averageâ
+As shown in TableÂ 
+
+
+TEAM-PA intervention fidelity and dose items
+â¢ Session objectives reviewed with participants
+â¢ Snack and water are offered
+â¢ Ground rules are displayed
+â¢ [Behavioral Skill
+â¢ [Collectivism Social-Cultural Topic] discussed during session as highlighted in the facilitators guide.
+Items related to dose are answered on a binary scale (0â=âNo, 1â=âYes), with each item assessing a specific program component. The observational checklist includes a total of 19 dose items, which are organized into sections related to arrival/setup, session content, the PA session, and group behavioral skills/goal-setting. The a priori goal for dose is for all program component to be deliveredâ
+Beginning in Cohort 2, additional items were added to the observational checklist to identify potential implementation challenges related to the PA intragroup competitive games, including whether participants engaged in at least 50% of the game, whether one or more participants needed breaks during the game (e.g., to catch their breath, sit down), challenges to implementing the games, and the use of adaptations to the games.
+To monitor adherence with using the FitBits and contributing to the collective team-based goals, Fitabase (Small Steps LLC) is used to compile participants PA data during the intervention period. Compliance is tracked by calculating the number of days/week with >â0 steps. The a priori goal was for participants to averageâ>â=â5 days/week of FitBit wear. We also evaluated the number of times individuals successfully met or exceeded the shared group-based PA goals.
+
+Participants
+------------
+Participants are recruited to participate in one of two group-based PA programs (TEAM-PA intervention or a standard group-delivered comparison program). To be eligible, participants were required to: (1) be â¥â18 years old; (2) self-identify as an African American or Black female; and (3) engage in <â60Â min of self-reported MVPA per week for the last three months. Exclusion criteria included: (1) having a cardiovascular or orthopedic condition that would limit PA; (2) inability to walk without a walker/cane; (3) pregnancy; or (4) uncontrolled blood pressure (systolicâ>â180 mmHg/diastolicâ>â110 mmHg).
+
+Study design
+------------
+The TEAM-PA trial is a randomized group cohort design, with each cohort consisting of 3â4 groups of approximately 10â15 participants per group [
+
+Recruitment
+-----------
+Participants first complete a phone screener, including the short-version of the International Physical Activity Questionnaire [
+
+Overview of the TEAM-PA intervention
+------------------------------------
+The TEAM-PA intervention aims to promote a positive group climate and is based on essential elements derived from Social Cognitive Theory (SCT) [
+TableÂ 
+The TEAM-PA intervention is delivered by two trained facilitators at community sites. Groups meet weekly for 12 weeks (including the 2-week run-in period) for two hours in the evening.
+After the run-in period, participants receive a Fitbit (Inspire model) to track their PA and instructions for using the Fitbit mobile app. Participants are connected as âfriendsâ with their group members on the app and a private group is set up by the research team to facilitate conversations among group members. The intervention group sessions include four major components: group feedback and problem-solving (15Â min); delivery of a discussion-based health curriculum (with cultural topics related to collectivism) (30Â min); intragroup competitive PA session (30Â min); and group-based behavioral skills training (e.g., collective PA goal-setting). Outside of the in-person sessions, participants are encouraged to track their daily PA using the FitBits and use the FitBit mobile app to monitor their teamâs progress towards achieving their weekly team-based goal, engage in friendly competition via the appâs leaderboard, and communicate with their team members in the private group. For a detailed description of the intervention approach see the protocol paper [
+
+TEAM-PA intragroup competitive PA sessions
+------------------------------------------
+Based on previous qualitative and pilot work by the research team [
+
+TEAM-PA intervention training
+-----------------------------
+African American female facilitators are trained to co-deliver the programs. Facilitators receive facilitator guides for each group session that outline key content, cultural topics, behavioral skills, and the TEAM-PA intragroup competitive activity. All facilitators complete extensive training, including behavioral skills related to PA through didactic and role-play components. Training targets motivational interviewing skills [
+
+TEAM-PA process evaluation methods
+----------------------------------
+Process evaluation methods were guided by the essential elements framework that defined dose and fidelity of the TEAM-PA intervention. This paper focuses on process evaluation related to reach (proportion of participants who received the intervention as intended), fidelity (extent to which the intervention adheres to the theoretical essential elements as planned), and dose delivered (completeness of all components) in the TEAM-PA intervention [
+
+
+Overview of the process evaluation approach
+
+Attendance tracking
+-------------------
+Each week, participants are asked to sign-in and sign-out when attending the group sessions, which is used to track attendance and program reach. The a priori goal for the TEAM-PA trial is to averageâ
+
+Systematic observations
+-----------------------
+As shown in TableÂ 
+
+
+TEAM-PA intervention fidelity and dose items
+â¢ Session objectives reviewed with participants
+â¢ Snack and water are offered
+â¢ Ground rules are displayed
+â¢ [Behavioral Skill
+â¢ [Collectivism Social-Cultural Topic] discussed during session as highlighted in the facilitators guide.
+Items related to dose are answered on a binary scale (0â=âNo, 1â=âYes), with each item assessing a specific program component. The observational checklist includes a total of 19 dose items, which are organized into sections related to arrival/setup, session content, the PA session, and group behavioral skills/goal-setting. The a priori goal for dose is for all program component to be deliveredâ
+Beginning in Cohort 2, additional items were added to the observational checklist to identify potential implementation challenges related to the PA intragroup competitive games, including whether participants engaged in at least 50% of the game, whether one or more participants needed breaks during the game (e.g., to catch their breath, sit down), challenges to implementing the games, and the use of adaptations to the games.
+
+FitBit tracking
+---------------
+To monitor adherence with using the FitBits and contributing to the collective team-based goals, Fitabase (Small Steps LLC) is used to compile participants PA data during the intervention period. Compliance is tracked by calculating the number of days/week with >â0 steps. The a priori goal was for participants to averageâ>â=â5 days/week of FitBit wear. We also evaluated the number of times individuals successfully met or exceeded the shared group-based PA goals.
+
+Results
+-------
+Across Cohorts 1 and 2, a total of four groups (
+
+
+Attendance in the TEAM-PA intervention
+Results from the systematic observations indicated that on average 93% of the dose items were completed in each session, which exceeded our a priori goal of 
+Results of facilitator and group-level fidelity are presented in TableÂ 
+
+
+Fidelity of the TEAM-PA intervention implementation, 
+Importantly, the systematic observational checklist revealed that the group-climate during the group-based PA games, which includes behaviors like clapping, cheering, and high-fives, was adequate (
+First, we observed that there was a need to make the games more accessible for all levels of fitness and/or mobility. Solutions to this challenge included: (1) allowing participants to âtag inâ a facilitator if they need a short break to play in their place; (2) including a variety of options for different types of body weight exercises (e.g., options to avoid jumping/high impact movements); and (3) minimizing activities that require bending/reaching down to the floor without assistance. These strategies were implemented with the goal of making the games more accessible and encouraging participants to work at their own levels of comfort and ability without disrupting the flow of the games and opportunities for team competition.
+Second, we observed that there was a need to improve the game setup and instructions. Approximately 30Â min is allotted for the group PA sessions. Thus, facilitators had a relatively short period of time to set up, explain, and implement the game each session. Several solutions were generated, including: (1) reviewing the instructions with participants in multiple formats, including asking participants to read the written instructions on the participant handouts, reviewing these instructions verbally, and providing a brief visual demonstration; and (2) providing facilitators with videos of the games to watch in advance and aid in explaining the games.
+We have some initial evidence that these adaptations were successful, as we observed improvement on the item, âParticipants understand how to complete the physical activity component (e.g., follow directions, able to complete after a practice round)â from Cohort 1 (
+Results indicated that participants were compliant with wearing the FitBits and tracking their steps. On average participants had 6.66âÂ±â0.50 days of wear/week in Cohort 1 and 6.81âÂ±â0.30 days of wear/week in Cohort 2. Across the intervention period, average daily steps/week ranged from 8386.58âÂ±â3469.33 to 9368.71âÂ±â5936.19 in Cohort 1 and 7672.04âÂ±â4053.38 to 9371.40âÂ±â4591.66 in Cohort 2. Furthermore, we found that most participants successfully contributed to meeting the group-based goals, with individuals meeting the group-based goal an average of 6.56âÂ±â2.28 times in Cohort 1 and 6.78âÂ±â1.95 times in Cohort 2 (out of 9 possible sessions).
+
+Reach
+-----
+Across Cohorts 1 and 2, a total of four groups (
+
+
+Attendance in the TEAM-PA intervention
+
+Dose delivered
+--------------
+Results from the systematic observations indicated that on average 93% of the dose items were completed in each session, which exceeded our a priori goal of 
+
+Fidelity
+--------
+Results of facilitator and group-level fidelity are presented in TableÂ 
+
+
+Fidelity of the TEAM-PA intervention implementation, 
+
+Additional evaluation of the TEAM-PA games and lessons learned
+--------------------------------------------------------------
+Importantly, the systematic observational checklist revealed that the group-climate during the group-based PA games, which includes behaviors like clapping, cheering, and high-fives, was adequate (
+First, we observed that there was a need to make the games more accessible for all levels of fitness and/or mobility. Solutions to this challenge included: (1) allowing participants to âtag inâ a facilitator if they need a short break to play in their place; (2) including a variety of options for different types of body weight exercises (e.g., options to avoid jumping/high impact movements); and (3) minimizing activities that require bending/reaching down to the floor without assistance. These strategies were implemented with the goal of making the games more accessible and encouraging participants to work at their own levels of comfort and ability without disrupting the flow of the games and opportunities for team competition.
+Second, we observed that there was a need to improve the game setup and instructions. Approximately 30Â min is allotted for the group PA sessions. Thus, facilitators had a relatively short period of time to set up, explain, and implement the game each session. Several solutions were generated, including: (1) reviewing the instructions with participants in multiple formats, including asking participants to read the written instructions on the participant handouts, reviewing these instructions verbally, and providing a brief visual demonstration; and (2) providing facilitators with videos of the games to watch in advance and aid in explaining the games.
+We have some initial evidence that these adaptations were successful, as we observed improvement on the item, âParticipants understand how to complete the physical activity component (e.g., follow directions, able to complete after a practice round)â from Cohort 1 (
+
+FitBit results
+--------------
+Results indicated that participants were compliant with wearing the FitBits and tracking their steps. On average participants had 6.66âÂ±â0.50 days of wear/week in Cohort 1 and 6.81âÂ±â0.30 days of wear/week in Cohort 2. Across the intervention period, average daily steps/week ranged from 8386.58âÂ±â3469.33 to 9368.71âÂ±â5936.19 in Cohort 1 and 7672.04âÂ±â4053.38 to 9371.40âÂ±â4591.66 in Cohort 2. Furthermore, we found that most participants successfully contributed to meeting the group-based goals, with individuals meeting the group-based goal an average of 6.56âÂ±â2.28 times in Cohort 1 and 6.78âÂ±â1.95 times in Cohort 2 (out of 9 possible sessions).
+
+Discussion
+----------
+The present study described how formative process evaluation was used to monitor reach, dose, and fidelity, and provide timely, corrective feedback and solutions to implementation barriers during years one and two of the TEAM-PA randomized controlled trial. Results from Cohort 1â2 indicated relatively high levels of attendance, which were further enhanced through the use of makeup sessions. Facilitator dose delivered and fidelity to theoretical elements also exceeded implementation criteria, suggesting that intervention sessions were typically implemented as planned and facilitators were adhering to the theoretical essential elements. Fidelity at the group level was adequate, but somewhat lower than fidelity at the facilitator level. Furthermore, while most of the group-based PA games were implemented as planned, the process evaluation approach helped to identify several key areas for improvement. Results also indicated that most participants were compliant with wearing the FitBits, tracking their steps, and contributing to meeting the group-based goals. The integration of FitBit data to evaluate implementation of group-based goal-setting is a novel aspect of our process evaluation approach, as previous studies have primarily focused on individual-level adherence and acceptability [
+A novel component of the TEAM-PA intervention includes a focus on intragroup competition, as past group-based interventions with African American women have typically focused on non-competitive forms of PA, such as walking or aerobics [
+The results from this study also revealed several strengths during the first two cohorts of this ongoing trial, including high levels of reach (e.g., attendance). Although there have been some improvements in recent years, attendance remains a key challenge among group-based PA interventions, including studies with African American women [
+This study assessed fidelity at both the facilitator and group levels. Adequate fidelity was reached at both levels, but values were somewhat lower at the group-level. Increasingly, process evaluation frameworks and guidelines are recognizing the importance of contextual factors for understanding differences across sites/groups [
+This study has some limitations. The results of the process evaluation were critical for assessing implementation strengths and areas of improvement within the TEAM-PA trial, but may not generalize to other interventions, given the relatively small number of intervention groups. While a comprehensive process evaluation framework was developed, future research is needed to evaluate how intervention implementation relates to the primary outcomes and mechanisms in the larger TEAM-PA trial. Despite these limitations, the present study provides an informative example of how formative process evaluation can be used during the early stages of a randomized controlled trial to monitor reach, dose, and fidelity, and provide timely, corrective feedback and solutions to implementation barriers.
+
+Conclusion
+----------
+Findings from this study demonstrated high levels of reach, dose, and fidelity, while also highlighting strategies for implementing competitive group-based PA games that are accessible across physical fitness levels. We found that using formative process evaluation, including open-ended items, was important for capturing potential barriers to implementing competitive group-based PA games and that collaboratively brainstorming with our research staff and participants was an effective approach for generating timely solutions. Importantly, there was initial evidence that this formative process evaluation approach resulted in positive improvements in the implementation of the intervention across cohorts. Future group-based interventions for African American women may benefit from some of the adaptations identified in this study, including allowing for individuals to take breaks, incorporating a broader range of exercises, and minimizing activities that require bending/reaching down without assistance. In addition to using systematic observations and attendance tracking, future group-based interventions may also benefit from integrating data from wearables to evaluate whether participants are engaging in PA and goal-setting as intended. In summary, close monitoring of intervention implementation in community-based settings via formative process evaluation holds tremendous potential for improving intervention effectiveness, identifying important contextual variables, and increasing the likelihood of achieving meaningful changes in PA.
