@@ -1,13 +1,26 @@
+import argparse
 import os
 import openai
 import time
 
-API_KEY_PATH = ""
+parser = argparse.ArgumentParser(description="Classify and summarize clinical trials.")
+parser.add_argument("--api-key-path", type=str, required=True, help="Path to the OpenAI API key file.")
+parser.add_argument("--trials-folder", type=str, required=True, help="Folder containing the clinical trial files.")
+args = parser.parse_args()
+
+API_KEY_PATH = args.api_key_path
+TRIALS_FOLDER = args.trials_folder
+OUTPUT_FOLDER = r"./summaries"
+
+if not os.path.exists(OUTPUT_FOLDER):
+    os.makedirs(OUTPUT_FOLDER)
+
+with open(API_KEY_PATH, 'r') as file:
+    openai.api_key = file.read().strip()
 
 with open(API_KEY_PATH, 'r') as file:
     content = file.read()
     openai.api_key = content
-TRIALS_FOLDER = ""
 PROMPT_DEVICE_NAME = 'FitBit'
 OUTPUT_LENGTH = 300  # word count for the thesis
 MEDICAL_FIELDS = ["Somnology", "Gynecology", "Obstetrics", "Cardiology", "General Physiology",
@@ -142,14 +155,13 @@ def filter_trials_by_device(trial_texts, device_name):
     filtered_trials = []
 
     for trial in trial_texts:
-        # Check if the device name is in the text (case insensitive search)
         if device_name.lower() in trial.lower():
             filtered_trials.append(trial)
 
     return filtered_trials
 
 def main():
-    # Read trial files
+    # Read files
     print("Reading clinical trial files...")
     trial_texts = read_clinical_trial_files(TRIALS_FOLDER)
     print(f"Total trials found: {len(trial_texts)}")
@@ -164,10 +176,7 @@ def main():
     for idx, trial in enumerate(filtered_trials, 1):
         print(f"Processing Trial {idx}/{len(filtered_trials)}...")
 
-        # Extract Abstract
         abstract = extract_summary(trial)
-
-        # Classify the medical field
         medical_field = classify_medical_field(abstract)
 
         if medical_field not in classified_trials:
@@ -177,16 +186,12 @@ def main():
         time.sleep(1)
 
     print("\nClassification complete!")
-    for field, abstracts in classified_trials.items():
-        print(f"Field: {field}, Abstracts: {len(abstracts)}")
-
     for field, summaries in classified_trials.items():
         print(f"\nGenerating thesis for Medical Field: {field}")
-        thesis = generate_thesis(summaries, PROMPT_DEVICE_NAME, field, OUTPUT_LENGTH)
+        thesis = generate_thesis(summaries, device_name, field, OUTPUT_LENGTH)
         print(f"Thesis for {field}:\n{thesis}\n")
 
-        # Save to file
-        thesis_filename = f"thesis_{field.replace(' ', '_').lower()}.txt"
+        thesis_filename = os.path.join(OUTPUT_FOLDER, f"thesis_{field.replace(' ', '_').lower()}.txt")
         with open(thesis_filename, 'w', encoding='utf-8') as f:
             f.write(thesis)
         print(f"Thesis saved to {thesis_filename}")
