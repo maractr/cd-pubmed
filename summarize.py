@@ -155,7 +155,26 @@ def filter_trials_by_device(trial_texts, device_name):
     filtered_trials = []
 
     for trial in trial_texts:
-        if device_name.lower() in trial.lower():
+        title, abstract = "", ""
+
+        # Extract title
+        # some trials may contain mentions of the device but the trial may overall not be
+        # about the device, so we roughly decide that a trial is relevant if the device
+        # appears in the title
+        # this assumes the title is the first line
+        if "Title:" in trial:
+            title_start = trial.index("Title:") + len("Title:")
+            title_end = trial.find("\n", title_start)
+            title = trial[title_start:title_end].strip()
+
+        # Extract abstract
+        if "Abstract:" in trial:
+            abstract_start = trial.index("Abstract:") + len("Abstract:")
+            abstract_end = trial.find("\n", abstract_start)
+            abstract = trial[abstract_start:abstract_end].strip()
+
+        # Check if the device name is in the title or abstract
+        if device_name.lower() in title.lower() or device_name.lower() in abstract.lower():
             filtered_trials.append(trial)
 
     return filtered_trials
