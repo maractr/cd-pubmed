@@ -1,0 +1,14 @@
+The purpose of FitBit in General Physiology trials is to enhance the accuracy, effectiveness, and sustainability of physical activity interventions by providing objective, real-time data and integrating behavior change techniques (BCTs). FitBit devices are increasingly utilized in clinical trials to address limitations of self-reported physical activity measures, which are prone to overreporting and inaccuracies [1]. For instance, integrating FitBit into web-based interventions significantly increased physical activity levels among participants, demonstrating its utility in improving intervention outcomes [1]. FitBit’s ability to provide tailored feedback and self-monitoring has been particularly effective in older adults, with studies showing increased moderate-to-vigorous physical activity (MVPA) and step counts [2], [4], [10]. Additionally, combining FitBit with behavioral strategies, such as goal setting and social comparison, has shown promise in enhancing motivation and adherence to physical activity goals [5], [9]. However, the effectiveness of FitBit varies across populations. While it improved physical activity in older adults and medical students [3], [10], its impact on adolescents was limited, with no significant increases in MVPA observed [6]. Long-term adherence to FitBit use and sustained behavior change remain challenges, as activity levels and device wear-time tend to decline post-intervention [11]. Despite this, FitBit’s role in reducing sedentary behavior and improving physical function in clinical populations, such as cancer patients, highlights its potential in routine care settings [9]. Overall, FitBit serves as a valuable tool in General Physiology trials by providing objective data, enhancing intervention effectiveness, and supporting behavior change, though its long-term sustainability requires further exploration.
+
+References:
+[1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6315269/
+[2] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7008447/
+[3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6140803/
+[4] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9360125/
+[5] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11282379/
+[6] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8042874/
+[7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5863802/
+[8] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7571692/
+[9] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9931326/
+[10] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9136649/
+[11] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9284361/
