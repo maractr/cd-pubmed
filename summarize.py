@@ -1,6 +1,6 @@
 import argparse
 import os
-import openai
+from openai import OpenAI
 import time
 
 parser = argparse.ArgumentParser(description="Classify and summarize clinical trials.")
@@ -15,12 +15,13 @@ OUTPUT_FOLDER = r"./summaries"
 if not os.path.exists(OUTPUT_FOLDER):
     os.makedirs(OUTPUT_FOLDER)
 
-with open(API_KEY_PATH, 'r') as file:
-    openai.api_key = file.read().strip()
+key = ''
 
 with open(API_KEY_PATH, 'r') as file:
-    content = file.read()
-    openai.api_key = content
+    key = file.read().strip()
+
+client = OpenAI(api_key=key, base_url="https://api.deepseek.com")
+
 PROMPT_DEVICE_NAME = 'FitBit'
 OUTPUT_LENGTH = 300  # word count for the thesis
 MEDICAL_FIELDS = ["Somnology", "Gynecology", "Obstetrics", "Cardiology", "General Physiology",
@@ -29,17 +30,28 @@ MEDICAL_FIELDS = ["Somnology", "Gynecology", "Obstetrics", "Cardiology", "Genera
 
 def read_clinical_trial_files(folder_path):
     """
-    Reads all text files from the specified folder and returns their content.
+    Reads all text files from the specified folder and returns their content along with titles.
     """
-    trial_texts = []
+    trials = []
     for filename in os.listdir(folder_path):
         if filename.endswith('.txt'):
             filepath = os.path.join(folder_path, filename)
             with open(filepath, 'r', encoding='utf-8') as file:
                 content = file.read()
-                trial_texts.append(content)
-    return trial_texts
-
+                # Extract the title if it exists
+                title = ""
+                if "Title:" in content:
+                    title_start = content.index("Title:") + len("Title:")
+                    title_end = content.find("\n", title_start)
+                    title = content[title_start:title_end].strip()
+                # Extract url 
+                url = ""
+                if "Link:" in content:
+                    url_start = content.index("Link:") + len("Link:")
+                    url_end = content.find("\n", url_start)
+                    url = content[url_start:url_end].strip()
+                trials.append({"title": title, "content": content, "url": url})
+    return trials
 
 def classify_medical_field(trial_text):
     """
@@ -49,7 +61,7 @@ def classify_medical_field(trial_text):
         f'''You are provided with a set of 14 medical field classes: \"Somnology\", \"Gynecology\", \"Obstetrics\", \"Cardiology\", \"General Physiology\", \"Endocrinology\", \"Bariatrics\", \"Psychiatry\", \"Oncology\", \"Gastroenterology\", \"Pulmonology\", \"Chronic pain or diseases\", \"Neprhology\", and \"Other\". 
 Your task is to analyze the given clinical trial description and classify it into one of these 14 medical field classes. Please provide only one field as your output.
 ---
-Trial Description: {trial_text[0:500]}
+Trial Description: {trial_text[0:400]}
 ---
 Task: Classify the clinical trial into one of the 14 specified medical field classes:
 - Somnology
@@ -71,13 +83,14 @@ Please provide only the medical field name as your output.
     )
 
     try:
-        response = openai.chat.completions.create(
-            model="gpt-4",
+        response = client.chat.completions.create(
+            model="deepseek-chat",
             messages=[
                 {"role": "system",
                  "content": "You are a helpful assistant that classifies clinical trials into medical fields."},
                 {"role": "user", "content": prompt}
             ],
+            stream=False,
             temperature=0.3,
             max_tokens=50
         )
@@ -90,6 +103,7 @@ Please provide only the medical field name as your output.
             classified_field = 'Other'
         return classified_field
     except Exception as e:
+        print(trial_text)
         print(f"Error during classification: {e}")
         return "Unknown"
 
@@ -107,30 +121,36 @@ def extract_summary(trial_text):
         # If "Abstract:" or "Body:" not found, return a portion of the text
         return trial_text[:500]
 
-
-def generate_thesis(summaries, device_name, medical_field, output_length):
+def generate_thesis(summaries, urls, device_name, medical_field, output_length):
     """
     Constructs the prompt and generates a concise thesis using GPT.
+    Includes a references section with citation numbers matched to urls.
     """
     summary_index = len(summaries)
     summaries_combined = "\n\n".join([f"{i + 1}. {summary}" for i, summary in enumerate(summaries)])
+    references_section = "\n".join([f"[{i + 1}] {url}" for i, url in enumerate(urls)])
 
     prompt = f'''Your task is to extract relevant information from the {summary_index} inputted summaries labeled from 1 to {summary_index} to construct an argument about the purpose of {device_name} in {medical_field} trials. 
-            Each summary includes in-line references to clinical trials in the following format: [1]. Your reader will be clinical research coordinators.
-            ---
-            Summary:
-            {summaries_combined}
-            ---
-            Task: Write a concise {output_length}-word thesis about the purpose of {device_name} in {medical_field} trials. Use the numeric in-line citation format [1], [2], etc., to reference sources as appropriate.'''
+Each summary includes in-line references to clinical trials in the following format: [1]. Your reader will be clinical research coordinators.
+---
+Summary:
+{summaries_combined}
+---
+Task: Write a concise {output_length}-word thesis about the purpose of {device_name} in {medical_field} trials. Use the numeric in-line citation format [1], [2], etc., to reference sources. Do not fabricate references or cite summaries that do not support the claim. Ensure every source is cited at least once, and citations are strictly sequential. At the end, include a "References" section with each citation number and its corresponding URL, and do not format the word "References" with any markdown:
+---
+References:
+{references_section}
+'''
 
     try:
-        response = openai.chat.completions.create(
-            model="gpt-4",
+        response = client.chat.completions.create(
+            model="deepseek-chat",
             messages=[
                 {"role": "system",
                  "content": "You are a knowledgeable assistant skilled in constructing scientific arguments based on provided summaries."},
                 {"role": "user", "content": prompt}
             ],
+            stream=False,
             temperature=0.5,
             max_tokens=output_length * 5
         )
@@ -140,43 +160,18 @@ def generate_thesis(summaries, device_name, medical_field, output_length):
         print(f"Error during thesis generation: {e}")
         return ""
 
-
 def filter_trials_by_device(trial_texts, device_name):
     """
     Filters out trials that do not contain the device_name in their text.
-
-    Parameters:
-    - trial_texts (list): List of trial texts.
-    - device_name (str): The name of the device to look for in the text.
-
-    Returns:
-    - filtered_trials (list): List of trial texts that contain the device_name.
     """
     filtered_trials = []
-
     for trial in trial_texts:
-        title, abstract = "", ""
+        title = trial["title"]
+        content = trial["content"]
+        url = trial["url"]
 
-        # Extract title
-        # some trials may contain mentions of the device but the trial may overall not be
-        # about the device, so we roughly decide that a trial is relevant if the device
-        # appears in the title
-        # this assumes the title is the first line
-        if "Title:" in trial:
-            title_start = trial.index("Title:") + len("Title:")
-            title_end = trial.find("\n", title_start)
-            title = trial[title_start:title_end].strip()
-
-        # Extract abstract
-        if "Abstract:" in trial:
-            abstract_start = trial.index("Abstract:") + len("Abstract:")
-            abstract_end = trial.find("\n", abstract_start)
-            abstract = trial[abstract_start:abstract_end].strip()
-
-        # Check if the device name is in the title or abstract
-        if device_name.lower() in title.lower() or device_name.lower() in abstract.lower():
-            filtered_trials.append(trial)
-
+        if device_name.lower() in title.lower() or "wearable" in title.lower():
+            filtered_trials.append({"title": title, "content": content, "url": url})
     return filtered_trials
 
 def main():
@@ -187,7 +182,7 @@ def main():
 
     device_name = "FitBit"
 
-    # Keep trials that contain the device name, tossing out trials that shouldn't be there
+    # Keep trials that contain the device name
     filtered_trials = filter_trials_by_device(trial_texts, device_name)
     print(f"Trials containing the device name '{device_name}': {len(filtered_trials)}")
     classified_trials = {}
@@ -195,19 +190,22 @@ def main():
     for idx, trial in enumerate(filtered_trials, 1):
         print(f"Processing Trial {idx}/{len(filtered_trials)}...")
 
-        abstract = extract_summary(trial)
+        abstract = extract_summary(trial["content"])
         medical_field = classify_medical_field(abstract)
 
         if medical_field not in classified_trials:
-            classified_trials[medical_field] = []
-        classified_trials[medical_field].append(abstract)
+            classified_trials[medical_field] = {"summaries": [], "urls": []}
+        classified_trials[medical_field]["summaries"].append(abstract)
+        classified_trials[medical_field]["urls"].append(trial["url"])
 
         time.sleep(1)
 
     print("\nClassification complete!")
-    for field, summaries in classified_trials.items():
+    for field, data in classified_trials.items():
+        summaries = data["summaries"]
+        urls = data["urls"]
         print(f"\nGenerating thesis for Medical Field: {field}")
-        thesis = generate_thesis(summaries, device_name, field, OUTPUT_LENGTH)
+        thesis = generate_thesis(summaries, urls, device_name, field, OUTPUT_LENGTH)
         print(f"Thesis for {field}:\n{thesis}\n")
 
         thesis_filename = os.path.join(OUTPUT_FOLDER, f"thesis_{field.replace(' ', '_').lower()}.txt")

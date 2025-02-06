@@ -1,6 +1,7 @@
 import requests
 import os
 import argparse
+import time
 
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 PMC_BASE_URL = "https://www.ncbi.nlm.nih.gov/pmc/articles/"
@@ -39,13 +40,14 @@ def find_pmc_id(pmid):
         return None
 
 def download_pmc_full_text(pmc_id, folder):
-    """Download full text of article from PMC"""
+    """Download full text of article from PMC as an XML file"""
     params = {
         "verb": "GetRecord",
         "identifier": f"oai:pubmedcentral.nih.gov:{pmc_id}",
         "metadataPrefix": "pmc"
     }
     response = requests.get(PMC_OAI_URL, params=params)
+    print(params)
     response.raise_for_status()
 
     full_text_xml = response.text
@@ -70,12 +72,13 @@ def fetch_multiple_articles(term, folder, max_articles=5):
             print(f"Full text {pmid} saved as {file_path}")
         else:
             print(f"No PMC full text available for {pmid}")
+        time.sleep(1)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Fetch articles from PubMed and save their full texts.")
     parser.add_argument("term", help="Search term for PubMed articles.")
     parser.add_argument("folder", help="Folder to save the downloaded articles.")
-    parser.add_argument("--max_articles", type=int, default=5, help="Maximum number of articles to fetch (default: 5).")
+    parser.add_argument("--max-articles", type=int, default=5, help="Maximum number of articles to fetch (default: 5).")
     
     args = parser.parse_args()
 
