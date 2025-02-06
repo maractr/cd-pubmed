@@ -1,0 +1,10 @@
+The purpose of FitBit in oncology trials is to promote physical activity (PA) among cancer survivors, leveraging wearable technology to enhance engagement, self-monitoring, and behavior change. FitBit serves as a health coach, fostering commitment to PA by increasing its perceived value and importance, which is foundational for sustained engagement [1]. This is particularly critical given that 70%–90% of cancer survivors do not meet PA guidelines, and those who are physically active experience significantly lower cancer recurrence and improved survival rates [3]. FitBit’s real-time feedback and goal-setting features raise self-awareness, reinforce progress, and encourage adherence to PA goals, making it a valuable tool in interventions targeting behavior change [2].
+
+In trials involving cancer survivors, FitBit has been shown to increase moderate-to-vigorous PA (MVPA) and reduce sedentary behavior, particularly in underserved populations such as those living in regional and remote areas [3]. The device’s ability to provide prompts, track activity accurately, and offer personalized feedback aligns with the Health Action Process Approach (HAPA) model, which underpins many PA interventions [3]. Additionally, the aesthetic appeal and user-friendly features of FitBit influence its acceptability and likelihood of use, suggesting that offering device options tailored to individual preferences could enhance intervention effectiveness [2].
+
+By integrating FitBit into oncology trials, researchers aim to improve quality of life, reduce geographic disparities in cancer survival, and harness wearable technology to bridge the gap between PA behavior and goals [1], [3]. These trials highlight the potential of FitBit as a scalable, cost-effective tool for promoting PA and supporting long-term behavior change in cancer survivors.
+
+References:
+[1] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10620246/
+[2] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6312256/
+[3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538194/
